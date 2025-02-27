@@ -40,5 +40,5 @@ def menu() :
 
     return menuChoice # return the user's choice as a number and use that number to determine what function is called next
 
-menuChoice = menu()
-print(menuChoice) # remove this line in the final code. I put it in as a way to verify that the function is working
+# menuChoice = menu()
+# print(menuChoice) # remove this line in the final code. I put it in as a way to verify that the function is working
