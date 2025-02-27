@@ -5,15 +5,11 @@
 # Playing the game, displaying the final record, and creating a main function to call the program
 
 import random
+from intro import introduction
 
+# Karlie: function to introduce the game
+introduction()
 
-def introduction():
-    print(f"\nWOMEN'S SOCCER SEASON\nHow to play:\nChoose from the menu to begin")
-    iUserName = input("What is your name? ")
-    print()
-    print(f"Welcome {iUserName}! Let's play!")
-
-    return iUserName
 
 #initializing counter variables to 0
 numWin = 0
