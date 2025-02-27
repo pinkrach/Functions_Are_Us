@@ -42,3 +42,4 @@ def menu() :
 
 menuChoice = menu()
 print(menuChoice) # remove this line in the final code. I put it in as a way to verify that the function is working
+# here's a new note
