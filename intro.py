@@ -7,8 +7,8 @@ def introduction():
     print(f"\nWOMEN'S SOCCER SEASON\n")
     print()
     iUserName = input("What is your name? ")
-    print()
     print(f"Welcome {iUserName}! Let's play!")
+    print()
     print("How to begin:\nChoose from the menu to play the game, choose your teams, play again, or quit.")
 
     return iUserName
