@@ -5,6 +5,6 @@
 
 from chooseTeam import *
 from Menu import *
-from introduction import *
+from intro import *
 
     
