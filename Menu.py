@@ -18,11 +18,11 @@ def menu() :
 
     while bContMenu == True :
         print( "\nOptions:" # print this menu every time there's an invalid input, so include it in the loop
-            "\n1. Play the game"
-            "\n2. Choose your team"
-            "\n3. Choose the opposing team"
-            "\n4. Play again with current teams"
-            "\n5. Quit"
+            "\n1. Start"
+            "\n2. Play a round"
+            "\n3. Display current record"
+            "\n4. Display games played"
+            "\n5. Finish"
         )
 
         try : # use a try-except to account for non-numeric inputs from the user

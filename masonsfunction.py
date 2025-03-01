@@ -11,7 +11,9 @@ def playGame(homeName, awayName):
     while homeScore == awayScore:
         homeScore = random.randint(0, 10)
         awayScore = random.randint(0, 10)
-        
+    
+    print(f"{homeName}'s score: {homeScore}, {awayName}'s score: {awayScore}")
+
     if homeScore > awayScore:
         return "W"
     else:

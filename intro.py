@@ -9,6 +9,6 @@ def introduction():
     iUserName = input("What is your name? ")
     print(f"Welcome {iUserName}! Let's play!")
     print()
-    print("How to begin:\nChoose from the menu to play the game, choose your teams, play again, or quit.")
+    print("How to begin:\nChoose from the menu to start the game, then play a round, check your record, see past games, or finish.")
 
     return iUserName
