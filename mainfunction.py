@@ -5,6 +5,7 @@ from intro import introduction
 from chooseTeam import *
 from Menu import *
 from masonsfunction import *
+from displayResults import *
 
 def main():
     # Start the game by calling the introduction function
@@ -65,20 +66,10 @@ def main():
 
         # Quit the game
         elif menuChoice == 5:  
-            print("Thanks for playing! Goodbye.")
-            
             # Display the final record
-            print(f"Final Record for {name}: {numWins} Wins - {numLosses} Losses")
+            displayResult(homeTeam, numWins, numLosses)
             
-            #prints a statement based on the team performance
-            if (numWins + numLosses) > 0:
-                scorePercentage = numWins/(numWins + numLosses)
-                if scorePercentage >= 0.75:
-                    print("You qualified for the NCAA Women's Soccer Tournament")
-                elif scorePercentage >= 0.5:
-                    print("You had a good season ")
-                else:
-                    print("Your team needs to practice!") 
+            print("\nThanks for playing! Goodbye.")
 
             #exist menu
             bCont = False
